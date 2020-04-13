@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		22D63FFA2442BDB500C44CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FF92442BDB500C44CD1 /* AppDelegate.swift */; };
 		22D63FFC2442BDB500C44CD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFB2442BDB500C44CD1 /* SceneDelegate.swift */; };
-		22D63FFE2442BDB500C44CD1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFD2442BDB500C44CD1 /* FirstViewController.swift */; };
 		22D640002442BDB500C44CD1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFF2442BDB500C44CD1 /* SecondViewController.swift */; };
+		22D63FFE2442BDB500C44CD1 /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFD2442BDB500C44CD1 /* UIButtonViewController.swift */; };
 		22D640032442BDB500C44CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D640012442BDB500C44CD1 /* Main.storyboard */; };
 		22D640052442BDB800C44CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D640042442BDB800C44CD1 /* Assets.xcassets */; };
 		22D640082442BDB800C44CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D640062442BDB800C44CD1 /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		22D63FF62442BDB500C44CD1 /* PointerInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointerInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D63FF92442BDB500C44CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D63FFB2442BDB500C44CD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22D63FFD2442BDB500C44CD1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		22D63FFF2442BDB500C44CD1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		22D63FFD2442BDB500C44CD1 /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
 		22D640022442BDB500C44CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22D640042442BDB800C44CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D640072442BDB800C44CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				22D63FF92442BDB500C44CD1 /* AppDelegate.swift */,
 				22D63FFB2442BDB500C44CD1 /* SceneDelegate.swift */,
-				22D63FFD2442BDB500C44CD1 /* FirstViewController.swift */,
 				22D63FFF2442BDB500C44CD1 /* SecondViewController.swift */,
+				22D63FFD2442BDB500C44CD1 /* UIButtonViewController.swift */,
 				22D640012442BDB500C44CD1 /* Main.storyboard */,
 				22D640042442BDB800C44CD1 /* Assets.xcassets */,
 				22D640062442BDB800C44CD1 /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D640002442BDB500C44CD1 /* SecondViewController.swift in Sources */,
-				22D63FFE2442BDB500C44CD1 /* FirstViewController.swift in Sources */,
+				22D63FFE2442BDB500C44CD1 /* UIButtonViewController.swift in Sources */,
 				22D63FFA2442BDB500C44CD1 /* AppDelegate.swift in Sources */,
 				22D63FFC2442BDB500C44CD1 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				INFOPLIST_FILE = PointerInteraction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				INFOPLIST_FILE = PointerInteraction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
