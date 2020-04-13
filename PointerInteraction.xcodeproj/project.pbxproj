@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2291B5BE2443AD08001ED764 /* SVGtoBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B5BD2443AD08001ED764 /* SVGtoBezierPath.swift */; };
+		2291B5C02443AD70001ED764 /* SVGStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B5BF2443AD70001ED764 /* SVGStrings.swift */; };
+		2291B5C22443BEAE001ED764 /* UIViewViewController+ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B5C12443BEAE001ED764 /* UIViewViewController+ContextMenu.swift */; };
 		22D63FFA2442BDB500C44CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FF92442BDB500C44CD1 /* AppDelegate.swift */; };
 		22D63FFC2442BDB500C44CD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFB2442BDB500C44CD1 /* SceneDelegate.swift */; };
-		22D640002442BDB500C44CD1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFF2442BDB500C44CD1 /* SecondViewController.swift */; };
 		22D63FFE2442BDB500C44CD1 /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFD2442BDB500C44CD1 /* UIButtonViewController.swift */; };
+		22D640002442BDB500C44CD1 /* UIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D63FFF2442BDB500C44CD1 /* UIViewViewController.swift */; };
 		22D640032442BDB500C44CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D640012442BDB500C44CD1 /* Main.storyboard */; };
 		22D640052442BDB800C44CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D640042442BDB800C44CD1 /* Assets.xcassets */; };
 		22D640082442BDB800C44CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D640062442BDB800C44CD1 /* LaunchScreen.storyboard */; };
+		22D640102442C38400C44CD1 /* MiscViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6400F2442C38400C44CD1 /* MiscViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2291B5BD2443AD08001ED764 /* SVGtoBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGtoBezierPath.swift; sourceTree = "<group>"; };
+		2291B5BF2443AD70001ED764 /* SVGStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGStrings.swift; sourceTree = "<group>"; };
+		2291B5C12443BEAE001ED764 /* UIViewViewController+ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewViewController+ContextMenu.swift"; sourceTree = "<group>"; };
 		22D63FF62442BDB500C44CD1 /* PointerInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointerInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D63FF92442BDB500C44CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D63FFB2442BDB500C44CD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22D63FFF2442BDB500C44CD1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		22D63FFD2442BDB500C44CD1 /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
+		22D63FFF2442BDB500C44CD1 /* UIViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewViewController.swift; sourceTree = "<group>"; };
 		22D640022442BDB500C44CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22D640042442BDB800C44CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D640072442BDB800C44CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22D640092442BDB800C44CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D6400F2442C38400C44CD1 /* MiscViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2291B5C32443C2B7001ED764 /* SVG Support */ = {
+			isa = PBXGroup;
+			children = (
+				2291B5BD2443AD08001ED764 /* SVGtoBezierPath.swift */,
+				2291B5BF2443AD70001ED764 /* SVGStrings.swift */,
+			);
+			path = "SVG Support";
+			sourceTree = "<group>";
+		};
 		22D63FED2442BDB500C44CD1 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +77,11 @@
 			children = (
 				22D63FF92442BDB500C44CD1 /* AppDelegate.swift */,
 				22D63FFB2442BDB500C44CD1 /* SceneDelegate.swift */,
-				22D63FFF2442BDB500C44CD1 /* SecondViewController.swift */,
 				22D63FFD2442BDB500C44CD1 /* UIButtonViewController.swift */,
+				22D63FFF2442BDB500C44CD1 /* UIViewViewController.swift */,
+				2291B5C12443BEAE001ED764 /* UIViewViewController+ContextMenu.swift */,
+				22D6400F2442C38400C44CD1 /* MiscViewController.swift */,
+				2291B5C32443C2B7001ED764 /* SVG Support */,
 				22D640012442BDB500C44CD1 /* Main.storyboard */,
 				22D640042442BDB800C44CD1 /* Assets.xcassets */,
 				22D640062442BDB800C44CD1 /* LaunchScreen.storyboard */,
@@ -141,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D640002442BDB500C44CD1 /* SecondViewController.swift in Sources */,
+				2291B5C02443AD70001ED764 /* SVGStrings.swift in Sources */,
+				22D640002442BDB500C44CD1 /* UIViewViewController.swift in Sources */,
 				22D63FFE2442BDB500C44CD1 /* UIButtonViewController.swift in Sources */,
 				22D63FFA2442BDB500C44CD1 /* AppDelegate.swift in Sources */,
+				2291B5BE2443AD08001ED764 /* SVGtoBezierPath.swift in Sources */,
 				22D63FFC2442BDB500C44CD1 /* SceneDelegate.swift in Sources */,
+				2291B5C22443BEAE001ED764 /* UIViewViewController+ContextMenu.swift in Sources */,
+				22D640102442C38400C44CD1 /* MiscViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
